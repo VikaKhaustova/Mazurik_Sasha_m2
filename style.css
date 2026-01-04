@@ -1,0 +1,105 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #310b59;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #310b59;
+}
+
+ul{
+    list-style: url("image-removebg-preview 1.png");
+}
+
+.logo{
+    color: #160429
+}
+
+.nav-link{
+    color: #8b47a8;
+    font-size: 20px;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    color: white;
+    background: url("хз ваще.jpg") no-repeat center/cover;
+    text-shadow: 2px 2px 5px black;
+    
+}
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 0; 
+
+}
+
+.hero p {
+    font-size: 22px;
+   
+}
+
+.cta-button {
+padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: #28b485;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+main{
+      background-color: #310b59;
+}
+.character{
+    width: 350px;
+    text-align: center;
+    border: 10px double #472704;
+    padding: 20px;
+    border-radius: 15px;
+    height: 600px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.character:hover{
+    box-shadow:  5px 5px 5px #8b47a8;
+
+}
+
+.character-img{
+    height: 300px;
+    width: 300px;
+}
+
+
+.characters{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #310b59;
+}
